@@ -1,0 +1,36 @@
+if players on same pc
+
+First attach Csharp DB File to your database
+
+Second change connection String from Server.Data CS file 
+
+Third start the game :
+
+1-open Guess Project 
+2-run Game_Server
+3-start new instance of Game_Client to create room 
+4-start new instance of Game_Client to select a room to join 
+5-start new instance of Game_Client to select a room to watch  
+
+
+.......................................
+
+if players from different pcs 
+
+First attach Csharp DB File to your database
+
+Second change connection String from Server.Data CS file 
+
+Third open CMD and getipaddress using ipconfig
+
+fourth change ip address in Game_Server =>program cs File 
+
+Fifth change ip address in Game_Client =>Login cs File 
+
+Sixth start the game :
+
+1-open Guess Project 
+2-run Game_Server
+3-start new instance of Game_Client to create room 
+4-start new instance of Game_Client to select a room to join 
+5-start new instance of Game_Client to select a room to watch  
